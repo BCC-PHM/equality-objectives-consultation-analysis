@@ -63,7 +63,7 @@ data_quant |>
   )) +
   # scale_fill_brewer(palette = "PRGn",
   #                   direction = 1) +
-  scale_fill_manual(values = likert_pal)
+  scale_fill_manual(values = likert_pal) +
   ggtitle("To what extent do you agree or disagree that this equality objective reflects\nthe most important equality issues facing Birmingham today?") +
   theme_bcc(base_size = 12,
             gridline_y = F,
